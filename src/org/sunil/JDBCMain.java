@@ -122,7 +122,7 @@ class JDBC{
 			return conn;
 		}else{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			conn = DriverManager.getConnection(url, "sunil", "sunil110");
+			conn = DriverManager.getConnection(url, "USERNAME", "PASSWORD");
 		}
 		return conn;
 	}
